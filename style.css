@@ -43,6 +43,7 @@ html {
 
 .linkbar a {
   width: 80%;
+  color: #777;
   background-color: #ffe0f8;
   text-decoration: none;
   margin-top: 5px;
@@ -55,6 +56,7 @@ html {
 
 .linkbar a:hover {
   width:100%;
+  color: #ffe0f8;
   background-color: white;
 }
 
