@@ -109,12 +109,14 @@ h1 {
   align-items: center;
 }
 
-.contentcontain {
+.form {
   padding: 30px;
   height: 70%;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   overflow: auto;
+  background-color: white;
+  border-radius: 15px;
 }
 
