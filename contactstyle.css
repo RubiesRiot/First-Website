@@ -112,11 +112,13 @@ h1 {
 .form {
   padding: 30px;
   height: 70%;
+  width:60%;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   overflow: auto;
   background-color: white;
+  font-family: Quicksand;
   border-radius: 15px;
 }
 
