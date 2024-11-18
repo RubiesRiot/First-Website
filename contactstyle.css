@@ -109,19 +109,6 @@ h1 {
   align-items: center;
 }
 
-.form {
-  padding: 30px;
-  width:45%;
-  align:center;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  overflow: auto;
-  background-color: white;
-  font-family: Quicksand;
-  border-radius: 15px;
-}
-
 fieldset {
     border: 1px solid #ccc;
     padding: 20px;
