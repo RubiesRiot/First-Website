@@ -120,6 +120,7 @@ h1 {
 .content {
     position: relative;
     height: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -129,7 +130,7 @@ h1 {
 fieldset {
     border: 1px solid #ccc;
     background-color:white;
-    width: 350px;
+    width:350px;
     padding: 15px;
     border-radius: 5px;
 }
@@ -141,7 +142,7 @@ label {
 }
 
 input, textarea {
-    width: 335px;
+    width: 320px;
     padding: 8px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
