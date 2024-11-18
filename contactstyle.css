@@ -112,6 +112,7 @@ h1 {
 
 fieldset {
     border: 1px solid #ccc;
+    background-color:white;
     padding: 15px;
     border-radius: 5px;
 }
