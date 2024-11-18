@@ -102,9 +102,9 @@ h1 {
 
 .contentbox {
   background-image: url("https://live.staticflickr.com/5095/5403920563_1f3528feb7_b.jpg");
-  position: fixed;
+  position: relative;
   height: 100%;
-  width: 100%;
+  width: 60%;
   justify-content: center;
   align-items: center;
   overflow: auto;
