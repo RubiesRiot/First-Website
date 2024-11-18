@@ -15,6 +15,7 @@ html {
   top: 0px;
   padding-top: 1%;
   color: #777;
+  z-index: 999;
 }
 
 #logo {
