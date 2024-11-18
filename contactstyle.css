@@ -17,6 +17,7 @@ html {
   color: #777;
   z-index: 998;
   background-color:white;
+  border-bottom: solid 3px #ffe0f8;
 }
 
 #logo {
@@ -83,15 +84,6 @@ html {
   background-color: white;
 }
 
-.divider {
-  height: 3px;
-  width: 100%;
-  position: fixed;
-  background-color: #ffe0f8;
-  margin-top: 200px;
-  z-index: 999;
-}
-
 h1 {
   font-family: Quicksand;
   color: white;
@@ -110,6 +102,7 @@ h1 {
   font-family: Quicksand;
   height: 100%;
   width: 100%;
+  margin-top:5px;
   justify-content: center;
   align-items: center;
   overflow: auto;
