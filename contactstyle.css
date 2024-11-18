@@ -111,8 +111,8 @@ h1 {
 
 .form {
   padding: 30px;
-  height: 70%;
-  width:60%;
+  width:45%;
+  align:center;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
