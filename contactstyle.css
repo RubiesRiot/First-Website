@@ -87,6 +87,7 @@ html {
   width: 100%;
   background-color: #ffe0f8;
   margin-top: 200px;
+  z-index: 8;
 }
 
 h1 {
@@ -111,6 +112,7 @@ h1 {
   align-items: center;
   overflow: auto;
   padding: 20px;
+  z-index: 0;
 }
 
 .content {
