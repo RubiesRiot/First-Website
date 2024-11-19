@@ -121,37 +121,15 @@ h1 {
     overflow: auto;
 }
 
-fieldset {
-    border: 1px solid #ccc;
-    background-color:white;
+.posts {
+    position: relative;
     width:350px;
-    padding: 15px;
-    border-radius: 5px;
-}
-
-label {
-    display: block;
-    margin-bottom: 5px;
-    padding-right: 5px;
-}
-
-input, textarea {
-    width: 320px;
-    padding: 8px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-button {
-    padding: 10px 15px;
-    background-color: #ffe0f8;
-    color: black;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-button:hover {
+    height: auto;
+    border-radius: 20px;
+    border: 1px #777 dashed;
     background-color: white;
-}
+    font-family: Quicksand;
+    font-size: 13px;
+    padding: 12px;
+    margin-top: 30px;
+  }
