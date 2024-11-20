@@ -149,6 +149,18 @@ li {
   margin: 5px;
 }
 
+button {
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-align: center;
+  cursor: default;
+}
+
 .btn {
   font-family: Arial, Helvetica, sans-serif;  
   text-transform: uppercase;
@@ -157,6 +169,17 @@ li {
 .btn:hover .btn-slide-show-text1 {
   margin-left: 65px;
 }
+
+.btn-arrow-slide-arrow:before {
+  position: absolute;
+  content: "";
+  top: -.25rem;
+  right: .0625rem;
+  width: .625rem;
+  height: .625rem;
+  border-top: .125rem solid #fff;
+  border-right: .125rem solid #fff;
+  transform: rotate(45deg);
 
 .btn-arrow-slide-circle {
   transition: all .45s cubic-bezier(.65,0,.076,1);
