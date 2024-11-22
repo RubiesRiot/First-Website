@@ -11,7 +11,7 @@ body {
 
 .header {
   width:100%;
-  height:20%;
+  height: 200px;
   font-family: Quicksand;
   display: flex;
   justify-content: center;
@@ -19,6 +19,9 @@ body {
   top: 0px;
   padding-top: 1%;
   color: #777;
+  z-index: 9999;
+  background-color:white;
+  border-bottom: solid 3px #ffe0f8;
 }
 
 #logo {
@@ -112,12 +115,8 @@ a {
 }
 
 .container  {
-  margin:0 auto; 
+  margin:0 auto;
   display:grid;
-  grid-template-rows: 30% 30% 30%;
-  grid-template-columns: auto;
-  row-gap: 10px;
-  column-gap: 10px;
 }
 
 .thumb-box {
@@ -127,6 +126,7 @@ a {
   position:relative;
   border-radius: 20px;
 }
+
 
 .thumb-box a {
   padding:0;
@@ -151,6 +151,7 @@ a {
   left:0;
   padding:5%;
   background-image: linear-gradient(to bottom, transparent, rgba(80, 12, 46, 0.75));
+  border-radius: 0px 0px 20px 20px;
 }
 
 .meta {
