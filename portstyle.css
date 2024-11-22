@@ -119,6 +119,7 @@ a {
 .container  {
   margin:0 auto; 
   display:block;
+  overflow:auto;
 }
 
 .row  {
