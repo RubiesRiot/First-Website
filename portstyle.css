@@ -91,6 +91,8 @@ body {
 h1 {
   font-family: Quicksand;
   color: white;
+  position:relative;
+  margin-top: 205px;
   font-size: 25px;
   text-align: center;
   text-shadow:
@@ -117,8 +119,8 @@ a {
 .container  {
   margin-top: 215px;
   display:grid;
-  grid-template-columns: 30% 30% 30%;
-  grid-template-rows: auto;
+  grid-template-columns: auto;
+  grid-template-rows: 30% 30% 30%;
   justify-items: center;
   row-gap: 10px;
   column-gap: 10px;
