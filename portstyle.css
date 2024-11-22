@@ -117,22 +117,23 @@ a {
 }
 
 .container  {
-  display:grid;
-  grid-template-rows: 30% 30% 30%;
-  grid-template-columns: auto;
-  justify-items: center;
-  row-gap: 10px;
-  column-gap: 10px;
+  margin:0 auto; 
+  display:block;
+}
+
+.row  {
+  display:flex;
+  align-items:center;
 }
 
 .thumb-box {
   display:flex;
   max-width:30%;
+  padding: 5px;
   margin:0 15px;
   position:relative;
   border-radius: 20px;
 }
-
 
 .thumb-box a {
   padding:0;
