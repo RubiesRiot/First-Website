@@ -117,10 +117,9 @@ a {
 }
 
 .container  {
-  margin-top: 215px;
   display:grid;
-  grid-template-columns: auto;
   grid-template-rows: 30% 30% 30%;
+  grid-template-columns: 250px 250px;
   justify-items: center;
   row-gap: 10px;
   column-gap: 10px;
