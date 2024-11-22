@@ -85,13 +85,6 @@ body {
   background-color: white;
 }
 
-.divider {
-  height: 3px;
-  width: 100%;
-  background-color: #ffe0f8;
-  margin-top: 200px;
-}
-
 h1 {
   font-family: Quicksand;
   color: white;
@@ -120,12 +113,11 @@ a {
 
 .container  {
   margin:0 auto; 
-  display:block;
-}
-
-.row  {
-  display:flex;
-  align-items:center;
+  display:grid;
+  grid-template-rows: 30% 30% 30%;
+  grid-template-columns: auto;
+  row-gap: 10px;
+  column-gap: 10px;
 }
 
 .thumb-box {
@@ -135,7 +127,6 @@ a {
   position:relative;
   border-radius: 20px;
 }
-
 
 .thumb-box a {
   padding:0;
@@ -149,6 +140,7 @@ a {
   width:100%;
   height:280px;
   float:left;
+  border-radius: 20px;
 }
 
 .overlay-box {
