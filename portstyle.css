@@ -92,7 +92,7 @@ h1 {
   font-family: Quicksand;
   color: white;
   position:relative;
-  margin-top: 210px;
+  margin-top: 225px;
   font-size: 25px;
   text-align: center;
   text-shadow:
@@ -120,11 +120,13 @@ a {
   margin:0 auto; 
   display:block;
   overflow:auto;
+  justify-content: center;
 }
 
 .row  {
   display:flex;
-  align-items:center;
+  align-items: center;
+  justify-content: center;
 }
 
 .thumb-box {
