@@ -133,7 +133,7 @@ a {
 .thumb-box {
   display:flex;
   max-width: 23%;
-  padding: 15px;
+  padding: 5px;
   margin:0 15px;
   margin-bottom: 10px;
   position:relative;
